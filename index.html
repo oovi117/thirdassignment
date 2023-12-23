@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3RD ASSIGNMENT</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <nav>
+          <section class="logo">
+            <img src="./IMAGES/third-logo.jpg" alt="logo" />
+          </section>
+          <section class="links">
+            <a href="#">Download</a>
+            <a href="#">Learn more</a>
+            <a href="#">Pricing</a>
+            <a href="#">Help</a>
+            <a href="#">Account</a>
+          </section>
+        </nav>
+        <hr />
+
+        <main>
+          <div class="whitebg">
+            <h2>Checkout</h2>
+            <hr />
+            <form action="">
+              <fieldset>
+                <h4><span class="roundno">1</span> Your Basic Information</h4>
+                <section class="secflex">
+                  <div class="basicdiv1">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" placeholder="Jane" />
+                  </div>
+
+                  <div>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" placeholder="Doe" />
+                  </div>
+                </section>
+
+                <section>
+                  <div>
+                    <label for="email">Email</label><br />
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Janedoe@example.com"
+                    />
+                  </div>
+                </section>
+              </fieldset>
+              <hr />
+
+              <fieldset class="secfield">
+                <h4><span class="roundno">2</span> Your Payment Information</h4>
+                <section class="ccard">
+                  <label for="ccn">Credit Card</label>
+                  <input
+                    id="ccn"
+                    type="tel"
+                    inputmode="numeric"
+                    pattern="[0-9\\s]{13,19}"
+                    autocomplete="cc-number"
+                    maxlength="19"
+                    placeholder=""
+                  />
+                </section>
+              </fieldset>
+              <section class="btn">
+                <button>Buy WP Pusher</button>
+                <p class="helpsec">
+                  <span class="roundno">?</span
+                  ><strong>Need any help?</strong>Don't hesitate to
+                  <a href="#">contact support</a>
+                </p>
+              </section>
+            </form>
+            <p class="stripe">Powered by <strong>stripe</strong></p>
+          </div>
+
+          <div class="bluebg">
+            <h4>Freelancer</h4>
+            <p class="year">
+              <span class="currency">$</span
+              ><span class="ninety9">99</span>/year
+            </p>
+            <p>Automatically renews after 1 year</p>
+
+            <ul>
+              <li>
+                <span class="check">&check;</span> Use on
+                <strong>5</strong> client sites
+              </li>
+              <li>
+                <span class="check">&checkmark;</span> Private repositories
+              </li>
+              <li><span class="check">&check;</span> Email Support</li>
+            </ul>
+
+            <div class="switch">
+              <p>Need <strong>20</strong> client sites?</p>
+              <a href="#">Switch to the Agency plan</a>
+            </div>
+            <hr />
+            <section class="italic">
+              <p>FTP is horrible to deal with.</p>
+              <p>
+                <strong>WP Pusher</strong> solves that issue, <br />and the
+                customer support is <br />
+                awesome!
+              </p>
+            </section>
+            <div class="profile">
+              <div class="img">
+                <img src="./IMAGES/passport.jpg" alt="" />
+              </div>
+              <div>
+                <p><strong>ASEMA OOVI</strong></p>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <p class="copy">
+          &copy 2023 WP Pusher IVS - <a href="#">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
